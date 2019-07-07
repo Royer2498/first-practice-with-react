@@ -1,0 +1,43 @@
+.navbar{
+    grid-area: navbar;
+    height: 100%;
+    background:#305f30;
+    display: grid;
+    grid-template-columns: minmax(5px,65%) 35%;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+        "logo" "links-bar"
+}
+
+.links-bar__item{
+    float: left;
+}
+
+.links-bar__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links-bar{
+
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    color:#ffe57b;
+}
+
+.links-bar__link{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffe57b;
+}
+
+.links-bar__link:hover{
+    background-color: #ffe57b;
+    color: #305f30;
+}

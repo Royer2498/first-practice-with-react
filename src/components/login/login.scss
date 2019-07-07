@@ -1,0 +1,93 @@
+
+.login__card{
+    grid-area: card;
+    align-self: center;
+    background-color:#ebf3a0;
+    padding: 8%;
+    border-radius: 1%;
+}
+
+.login{
+    display: grid;
+    height: 100%;
+    grid-template-columns: minmax(5px,35%) minmax(280px,30%) minmax(5px,35%);
+    grid-template-areas:
+    ". card .";
+    background: #ffe57b;
+}
+
+.login__title{
+    display:flex;
+    justify-content: space-around;
+}
+
+.login__username-input{
+    grid-area: username;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login__password-input{
+    grid-area: password;
+    display: flex;
+    justify-content: space-around;
+}
+
+.login__username-label{
+    grid-area: username-label;
+    display: flex;
+}
+
+.login__password-label{
+    grid-area: password-label;
+    display: flex;
+}
+
+.login__form{
+    display: grid;
+    grid-template-columns: minmax(200px,100%);
+    grid-template-rows: 1fr 1fr 1fr 18px 1fr 1fr 1fr;
+    grid-template-areas:
+    "."
+    "username-label"
+    "username"
+    "."
+    "password-label"
+    "password"
+    "."
+}
+
+.login__button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    border-radius: 4px;
+    border:none;
+
+}
+
+.login__in-button{
+    padding: 10px;
+    color: #ffe57b;
+    background: #305f30;
+}
+
+.login__register-button{
+    padding: 10px;
+    color: #ffe57b;
+    background: #305f30;
+}
+
+.input{
+  padding: 12px;
+  border: 1px solid #ffe57b;
+  border-radius: 6px;
+  background: #ebf3a0;
+}
+
+
+
+
+

@@ -6,6 +6,7 @@ import '../../css/common-blocks/links-bar/links-bar__link.css'
 import '../../css/common-blocks/links-bar/links-bar__list.css'
 import '../../css/common-blocks/logo/logo.css'
 import { Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom"
 
 export default class Navbar extends Component {
     render() {
@@ -15,12 +16,13 @@ export default class Navbar extends Component {
               ADMINISTRACION GANADERA
           </div>
           <div className="links-bar">
+            <Router>
               <ul className="links-bar__list">
                 <li className="links-bar__item">
                   <Link className="links-bar__link" to="/users">INICIO</Link>
                 </li>
                 <li className="links-bar__item">
-                  <Link className="links-bar__link" to="/basic-form">SOBRE NOSOTROS </Link>
+                  <Link className="links-bar__link" to="/basic-form">FORMULARIO </Link>
                 </li>
                 <li className="links-bar__item">
                   <Link className="links-bar__link" to="/users">CONTACTANOS</Link>
@@ -29,6 +31,7 @@ export default class Navbar extends Component {
                   <Link className="links-bar__link" to="/">REGISTRATE</Link>
                 </li>
               </ul>
+              </Router>
           </div>
         </div>
       );

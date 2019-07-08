@@ -1,5 +1,9 @@
 .basic-form__save-button{
-    padding: 12px;
+    padding: 10px;
     color: #ffe57b;
     background: #305f30;
+    grid-area: save-button;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }

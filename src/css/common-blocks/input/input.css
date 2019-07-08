@@ -7,4 +7,5 @@
   
 input:focus{
     border-color: #305f30;
+    border-radius: 6px;
 }

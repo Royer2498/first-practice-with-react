@@ -3,7 +3,7 @@
     height: 100%;
     background:#305f30;
     display: grid;
-    grid-template-columns: minmax(5px,65%) 35%;
+    grid-template-columns: minmax(5px,60%) minmax(35%,40%);
     grid-template-rows: 100%;
     grid-template-areas: 
         "logo" "links-bar"

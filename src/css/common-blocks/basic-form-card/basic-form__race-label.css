@@ -1,0 +1,4 @@
+.basic-form__race-label{
+    grid-area: race-label;
+    display: flex;
+}

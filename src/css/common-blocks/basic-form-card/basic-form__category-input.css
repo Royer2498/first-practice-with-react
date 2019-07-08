@@ -1,0 +1,4 @@
+.basic-form__category-input{
+    grid-area: category;
+    display: flex;
+}

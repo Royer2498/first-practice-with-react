@@ -3,6 +3,8 @@ import './App.css';
 import Login from './components/login/login';
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
+import BasicForm from './components/basicForm/basicForm';
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
         <Navbar/>
       </div>
       <div className="login-position">
-        <Login/>
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route exact path="/basic-form" component={BasicForm} />
+        </Switch>
       </div>
       <div className="footer-position">
         <Footer/>

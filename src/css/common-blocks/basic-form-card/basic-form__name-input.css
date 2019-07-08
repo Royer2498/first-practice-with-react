@@ -1,0 +1,4 @@
+.basic-form__name-input{
+    grid-area: name;
+    display: flex;
+}

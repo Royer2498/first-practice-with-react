@@ -1,0 +1,4 @@
+.basic-form__horn-input{
+    grid-area: horn;
+    display: flex;
+}

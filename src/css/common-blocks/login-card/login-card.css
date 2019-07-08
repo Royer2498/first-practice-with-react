@@ -1,0 +1,5 @@
+.login-card{
+    grid-area: card;
+    align-self: center;
+    padding:8%;
+}

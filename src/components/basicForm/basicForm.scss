@@ -1,0 +1,10 @@
+
+.basic-form{
+    display: grid;
+    height: 100%;
+    grid-template-columns: minmax(5px,20%) minmax(700px,60%) minmax(5px,20%);
+    grid-template-areas:
+    ". basic-form .";
+    padding-top: 3%;
+    padding-bottom: 3%;
+}

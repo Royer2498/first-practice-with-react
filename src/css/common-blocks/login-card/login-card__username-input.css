@@ -1,0 +1,5 @@
+.login-card__username-input{
+    grid-area: username;
+    display: flex;
+    justify-content: space-around;
+}

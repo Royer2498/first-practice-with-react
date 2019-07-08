@@ -1,0 +1,4 @@
+.basic-form__typing-label{
+    grid-area: typing-label;
+    display: flex;
+}

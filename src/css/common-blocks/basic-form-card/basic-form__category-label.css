@@ -1,0 +1,4 @@
+.basic-form__category-label{
+    grid-area:category-label;
+    display:flex;
+}

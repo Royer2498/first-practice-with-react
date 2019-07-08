@@ -1,0 +1,8 @@
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    color:#ffe57b;
+}

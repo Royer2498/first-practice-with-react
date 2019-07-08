@@ -1,0 +1,4 @@
+.basic-form__typing-input{
+    grid-area: typing;
+    display: flex;
+}

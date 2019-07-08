@@ -5,6 +5,7 @@
 
 .login-position{
     grid-area: body;
+    background: #ffe57b;
 }
 
 .footer-position{

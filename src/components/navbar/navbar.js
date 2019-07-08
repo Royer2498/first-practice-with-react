@@ -1,5 +1,11 @@
 import React, {Component} from 'react';
 import './navbar.scss';
+import '../../css/common-blocks/links-bar/links-bar.css'
+import '../../css/common-blocks/links-bar/links-bar__item.css'
+import '../../css/common-blocks/links-bar/links-bar__link.css'
+import '../../css/common-blocks/links-bar/links-bar__list.css'
+import '../../css/common-blocks/logo/logo.css'
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
     render() {
@@ -11,16 +17,16 @@ export default class Navbar extends Component {
           <div className="links-bar">
               <ul className="links-bar__list">
                 <li className="links-bar__item">
-                  <a className="links-bar__link" href="">INICIO</a>
+                  <Link className="links-bar__link" to="/users">INICIO</Link>
                 </li>
                 <li className="links-bar__item">
-                  <a className="links-bar__link" href=""> SOBRE NOSOTROS </a>
+                  <Link className="links-bar__link" to="/basic-form">SOBRE NOSOTROS </Link>
                 </li>
                 <li className="links-bar__item">
-                  <a className="links-bar__link" href="">CONTACTANOS</a>
+                  <Link className="links-bar__link" to="/users">CONTACTANOS</Link>
                 </li>
                 <li className="links-bar__item">
-                  <a className="links-bar__link" href="">REGISTRATE</a>
+                  <Link className="links-bar__link" to="/">REGISTRATE</Link>
                 </li>
               </ul>
           </div>

@@ -1,0 +1,4 @@
+.basic-form__name-label{
+    grid-area: name-label;
+    display: flex;
+}

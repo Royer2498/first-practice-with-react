@@ -1,0 +1,13 @@
+.login-card__form{
+    display: grid;
+    grid-template-columns: minmax(200px,100%);
+    grid-template-rows: 1fr 1fr 1fr 18px 1fr 1fr 1fr;
+    grid-template-areas:
+    "."
+    "username-label"
+    "username"
+    "."
+    "password-label"
+    "password"
+    "."
+}

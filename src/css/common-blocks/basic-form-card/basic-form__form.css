@@ -1,0 +1,25 @@
+.basic-form__form{
+    display: grid;
+    grid-template-columns: minmax(200px,100%);
+    grid-template-rows: repeat(19,1fr);
+    grid-template-areas:
+    "."
+    "name-label"
+    "name"
+    "."
+    "race-label"
+    "race"
+    "."
+    "horn-label"
+    "horn"
+    "."
+    "colour-label"
+    "colour"
+    "."
+    "category-label"
+    "category"
+    "."
+    "typing-label"
+    "typing"
+    "."
+}

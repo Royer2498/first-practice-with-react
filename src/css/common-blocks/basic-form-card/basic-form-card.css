@@ -1,0 +1,7 @@
+
+.basic-form-card{
+    display:grid;
+    grid-area: basic-form;
+    padding: 4%;
+}
+

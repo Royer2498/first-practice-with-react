@@ -1,0 +1,4 @@
+.basic-form__colour-label{
+    grid-area: colour-label;
+    display: flex;
+}

@@ -1,0 +1,4 @@
+.login-card__button-container{
+    display: flex;
+    justify-content: space-evenly;
+}

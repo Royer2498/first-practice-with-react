@@ -1,0 +1,4 @@
+.basic-form__colour-input{
+    grid-area: colour;
+    display: flex;
+}

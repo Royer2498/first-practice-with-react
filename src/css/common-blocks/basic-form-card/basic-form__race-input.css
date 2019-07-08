@@ -1,0 +1,4 @@
+.basic-form__race-input{
+    grid-area: race;
+    display: flex;
+}

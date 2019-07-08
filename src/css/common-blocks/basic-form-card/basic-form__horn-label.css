@@ -1,0 +1,4 @@
+.basic-form__horn-label{
+    grid-area: horn-label;
+    display: flex;
+}
